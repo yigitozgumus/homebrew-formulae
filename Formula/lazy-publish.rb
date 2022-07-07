@@ -5,35 +5,35 @@
 class LazyPublish < Formula
   desc ""
   homepage "https://github.com/yigitozgumus/lazy-publish"
-  version "1.0.4"
+  version "1.0.5"
   license "MIT"
 
   on_macos do
-    if Hardware::CPU.intel?
-      url "https://github.com/yigitozgumus/lazy-publish/releases/download/v1.0.4/lazy-publish_1.0.4_macOS_x86_64.tar.gz"
-      sha256 "1618297246ee300bd0b1118d1661161027543e6d2bb0136bd5116b6b3c379bb4"
+    if Hardware::CPU.arm?
+      url "https://github.com/yigitozgumus/lazy-publish/releases/download/v1.0.5/lazydraft_1.0.5_macOS_arm64.tar.gz"
+      sha256 "1c111508a61ae776ef3724de435b1265fa21d978fac51d90e236fd083fb5657a"
 
       def install
-        bin.install "lazy-publish"
+        bin.install "lazydraft"
       end
     end
-    if Hardware::CPU.arm?
-      url "https://github.com/yigitozgumus/lazy-publish/releases/download/v1.0.4/lazy-publish_1.0.4_macOS_arm64.tar.gz"
-      sha256 "b003f4ed45e16fefb5772695fe26d1fe77564380ef0168102462e31b40e1233b"
+    if Hardware::CPU.intel?
+      url "https://github.com/yigitozgumus/lazy-publish/releases/download/v1.0.5/lazydraft_1.0.5_macOS_x86_64.tar.gz"
+      sha256 "63a89d8b11c55432cc93f7f5983d4b07bfef5ecc7ba6e9ecda66b8408b0fe4ea"
 
       def install
-        bin.install "lazy-publish"
+        bin.install "lazydraft"
       end
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/yigitozgumus/lazy-publish/releases/download/v1.0.4/lazy-publish_1.0.4_Linux_x86_64.tar.gz"
-      sha256 "0018ecd06f5d42c48d02188870afd7292987185f10d5decf995955c70eb31ea0"
+      url "https://github.com/yigitozgumus/lazy-publish/releases/download/v1.0.5/lazydraft_1.0.5_Linux_x86_64.tar.gz"
+      sha256 "de4381ffebbf71f3d6310d3085e83783b2b2e47ce2c5c94549238feaef454166"
 
       def install
-        bin.install "lazy-publish"
+        bin.install "lazydraft"
       end
     end
   end
