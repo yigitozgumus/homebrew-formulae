@@ -5,7 +5,7 @@
 class Lazydraft < Formula
   desc "lazydraft helps you manage your markdown blog projects in your obsidian workflow. It can transfer the blog project into your static site of choice."
   homepage "https://github.com/yigitozgumus/lazydraft"
-  version "2.0.2"
+  version "2.0.3"
   license "MIT"
 
   depends_on "git"
@@ -13,16 +13,16 @@ class Lazydraft < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/yigitozgumus/lazydraft/releases/download/v2.0.2/lazydraft_2.0.2_macOS_arm64.tar.gz"
-      sha256 "c34de3636c86125555f411b08fc1fdc5285d3416ef6e2104e3277eaed6252aa0"
+      url "https://github.com/yigitozgumus/lazydraft/releases/download/v2.0.3/lazydraft_2.0.3_macOS_arm64.tar.gz"
+      sha256 "9cc725c8e10a5c074e60d1bf041af2279ed022cb10ad96fa8db2118c6ace5517"
 
       def install
         bin.install "lazydraft"
       end
     end
     if Hardware::CPU.intel?
-      url "https://github.com/yigitozgumus/lazydraft/releases/download/v2.0.2/lazydraft_2.0.2_macOS_x86_64.tar.gz"
-      sha256 "23300fe3a77db30df4daf0ecad10462aa270e702a519c92d5417ca3c2ce73810"
+      url "https://github.com/yigitozgumus/lazydraft/releases/download/v2.0.3/lazydraft_2.0.3_macOS_x86_64.tar.gz"
+      sha256 "b2b49f234de3830c9683ab56536513744496f0c4b699c9002e0dc028a841ec10"
 
       def install
         bin.install "lazydraft"
@@ -32,8 +32,8 @@ class Lazydraft < Formula
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/yigitozgumus/lazydraft/releases/download/v2.0.2/lazydraft_2.0.2_Linux_x86_64.tar.gz"
-      sha256 "5db1eea34433e131572d693b1b154dc32f93650170ee4a6fd9e24ce02c933790"
+      url "https://github.com/yigitozgumus/lazydraft/releases/download/v2.0.3/lazydraft_2.0.3_Linux_x86_64.tar.gz"
+      sha256 "60ff4226232167d7b2a88910b75715ed7c5ee1cd3f077ae2a7d1c440cb7364c2"
 
       def install
         bin.install "lazydraft"
