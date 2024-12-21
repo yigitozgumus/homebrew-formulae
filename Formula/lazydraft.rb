@@ -8,7 +8,7 @@ class Lazydraft < Formula
   license "MIT"
   url "https://github.com/yigitozgumus/lazydraft/releases/download/v3.1.1/lazydraft-macos-amd64.tar.gz"
   sha256 "10f3b3c009ffd4cb9b3b3b3e9ea9fe7b045d6a728a62293abbc1b984a0f13644"
-  version "3.1.1
+  version "3.1.1"
 
   def install
     bin.install "lazydraft"
