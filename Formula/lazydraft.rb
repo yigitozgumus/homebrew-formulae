@@ -6,7 +6,7 @@ class Lazydraft < Formula
   homepage "https://github.com/yigitozgumus/lazydraft"
   version "3.1.3"
   license "MIT"
-  url "https://github.com/yigitozgumus/lazydraft/releases/download//lazydraft-v.tar.gz"
+  url "https://github.com/yigitozgumus/lazydraft/releases/download//lazydraft-macos-amd64.tar.gz"
   sha256 ""
   version "3.1.3"
 
