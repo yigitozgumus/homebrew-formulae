@@ -7,7 +7,7 @@ class Lazydraft < Formula
   version "v3.1.5"
   license "MIT"
   url "https://github.com/yigitozgumus/lazydraft/releases/download/v3.1.5/lazydraft-macos-amd64.tar.gz"
-  sha256 "887a7bee4833756e8bf8b4cee54266599b17001039086d73906455c9dfbaaa77"
+  sha256 "dccf8a26f5cfc3dff97724319da26b7a7f2c1304ecda16c776e4d45411362f8d"
   version "v3.1.5"
 
   def install
