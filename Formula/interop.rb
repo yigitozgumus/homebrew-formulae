@@ -11,6 +11,6 @@ class Interop < Formula
   version "v0.0.1"
 
   def install
-    bin.install "lazydraft"
+    bin.install "interop"
   end
 end
