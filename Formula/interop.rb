@@ -7,7 +7,7 @@ class Interop < Formula
   version "v0.0.1"
   license "MIT"
   url "https://github.com/yigitozgumus/interop/releases/download/v0.0.1/interop_Darwin_arm64.tar.gz"
-  sha256 "67cca3edb3b6271f58b22063bb13e4d87c11ad8f8e57911f1fac47d75297e655"
+  sha256 "33392fdb0dc15ef0d25ecc9245a90a5d6a0c5d6897c8471d24febaa1e63f7024"
   version "v0.0.1"
 
   def install
