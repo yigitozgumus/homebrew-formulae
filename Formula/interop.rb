@@ -4,11 +4,11 @@
 class Interop < Formula
   desc "Interop is a work in progress CLI application aims to assist you in a programmable way"
   homepage "https://github.com/yigitozgumus/interop"
-  version "v0.0.30"
+  version "v0.0.31"
   license "MIT"
-  url "https://github.com/yigitozgumus/interop/releases/download/v0.0.30/interop_Darwin_arm64.tar.gz"
-  sha256 "ec3215e6bab4cce068bb4486f3907df5778b86f2225e46cd5f2aebb45fd961a4"
-  version "v0.0.30"
+  url "https://github.com/yigitozgumus/interop/releases/download/v0.0.31/interop_Darwin_arm64.tar.gz"
+  sha256 "df5d86374fb01ad9142aedd30fc041c18ba0bb647f51d7cdf9a9b963220d5729"
+  version "v0.0.31"
 
   def install
     bin.install "interop"
