@@ -5,21 +5,21 @@
 class Grip < Formula
   desc "Fast project and branch switching for git workspaces"
   homepage "https://github.com/yigitozgumus/grip"
-  version "0.1.0"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/yigitozgumus/grip/releases/download/v0.1.0/grip_0.1.0_darwin_amd64.tar.gz"
-      sha256 "34f2e18acdd44581062f6995182cd2e34da90d7a7fa561914f80f8847375b36b"
+      url "https://github.com/yigitozgumus/grip/releases/download/v0.2.0/grip_0.2.0_darwin_amd64.tar.gz"
+      sha256 "3f6bfb0d1571c60dfd01fe74da1674e84de65bf32a12d47b242aa7f423baa77e"
 
       def install
         bin.install "grip"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/yigitozgumus/grip/releases/download/v0.1.0/grip_0.1.0_darwin_arm64.tar.gz"
-      sha256 "88936665a894dfeec37a52f9392ff9995acfe1026c22f962db889cfbc931b513"
+      url "https://github.com/yigitozgumus/grip/releases/download/v0.2.0/grip_0.2.0_darwin_arm64.tar.gz"
+      sha256 "1e7040ae4302fd8d49a65bb3f83a60c3cd41d4f4fb02ca66768f1132f3cea883"
 
       def install
         bin.install "grip"
@@ -29,15 +29,15 @@ class Grip < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/yigitozgumus/grip/releases/download/v0.1.0/grip_0.1.0_linux_amd64.tar.gz"
-      sha256 "c2e7d730848eb72c765cc24f146a4810a2e83263e2b36f49b16fa3d31f1b195d"
+      url "https://github.com/yigitozgumus/grip/releases/download/v0.2.0/grip_0.2.0_linux_amd64.tar.gz"
+      sha256 "50cafbc009d2e9fdde8875829780c20d9ef245a2342552adc373009a7b47b57d"
       def install
         bin.install "grip"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/yigitozgumus/grip/releases/download/v0.1.0/grip_0.1.0_linux_arm64.tar.gz"
-      sha256 "2821fbee45cf3ae65248a28880c4afd92cadea0353b68062863652d6489ed3a3"
+      url "https://github.com/yigitozgumus/grip/releases/download/v0.2.0/grip_0.2.0_linux_arm64.tar.gz"
+      sha256 "7e792bb96e035aebdb62b7cf440c54bde495f0dbfca2a0a524819f0d5c13be11"
       def install
         bin.install "grip"
       end
